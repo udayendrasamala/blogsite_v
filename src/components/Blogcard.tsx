@@ -25,7 +25,7 @@ export const Blogcard=({Authorname,title,content,publisheddate,id}:Blogcardprops
              {(content.length >100) ?content.slice(0,100)+"...":content}
         </div>
         <div className="w-full text-slate-500 pt-4 text-sm font-thin">
-            {content.length>100?`${Math.ceil(content.length/100)} min read`:"1 min read"}
+            {content.length>100?`${Math.ceil(content.length/150)} min read`:"1 min read"}
         </div>
     </div>
     </Link> 
