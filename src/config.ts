@@ -1,0 +1,1 @@
+export const BACKEND_URL="https://backend.nobinobi2110.workers.dev";
